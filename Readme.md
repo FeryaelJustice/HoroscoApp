@@ -1,4 +1,4 @@
-# HoscoApp
+# HoroscoApp
 
 ## By: Feryael Justice
 
