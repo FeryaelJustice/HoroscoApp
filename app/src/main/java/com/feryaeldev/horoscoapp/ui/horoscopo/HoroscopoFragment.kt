@@ -6,7 +6,6 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.feryaeldev.horoscoapp.R
 import com.feryaeldev.horoscoapp.databinding.FragmentHoroscopoBinding
 import com.feryaeldev.horoscoapp.ui.OnFragmentActionsListener
 
@@ -19,7 +18,7 @@ class HoroscopoFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         _binding = FragmentHoroscopoBinding.inflate(inflater, container, false)
         return binding.root
     }
